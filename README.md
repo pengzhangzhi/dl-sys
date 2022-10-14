@@ -8,11 +8,11 @@
 
 ### HW1
 
-The problems that puzzles me the most are the gradient of matrix multiplication and `broacast_to`. I don't know what is the graident of the two ops :(.
+hw1 最难的部分我认为是计算 `broadcast_to` 和 `matrix_multiplication`的梯度。`broadcast_to` 这个算子的gradient很奇怪。`matrix_multiplication` 难点主要是当遇到有batch 维度的矩阵时，如何处理batch 这个维度。
 
-Becasue needle supports batched matrix multiplication, you need to take care of the addional batch dimension when calculate the backward gradient.
+hw1 主要希望大家学习到reverse mode auto differentiation. 精华内容用一张图就能概括：
 
-Similarly, the `broacast_to` also invovles manipulating the broadcasted shape.
+![image](https://user-images.githubusercontent.com/59241275/195799436-fc969121-9ce2-4e4d-8924-42ff5db0e576.png)
 
 ### HW2
 
