@@ -15,3 +15,8 @@ Becasue needle supports batched matrix multiplication, you need to take care of 
 Similarly, the `broacast_to` also invovles manipulating the broadcasted shape.
 
 ### HW2
+
+
+# related resources
+
+https://github.com/MARD1NO/LearnDLSysCourse
