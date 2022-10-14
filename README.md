@@ -6,6 +6,12 @@
 
 # Log
 
-- [ ] HW1
+### HW1
 
-- [ ] HW2
+The problems that puzzles me the most are the gradient of matrix multiplication and `broacast_to`. I don't know what is the graident of the two ops :(.
+
+Becasue needle supports batched matrix multiplication, you need to take care of the addional batch dimension when calculate the backward gradient.
+
+Similarly, the `broacast_to` also invovles manipulating the broadcasted shape.
+
+### HW2
